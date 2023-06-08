@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <meta name="viewport" content="width=device-device, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h3>I am thinking of a number between 1-100</h3>
+    <h3>Can you guess it?</h3>
+    <input type="number" placeholder="Guess" id="guess" max="100" min="1"><br>
+    <button onclick="checkGuess()" id="my_btn">GUESS</button>
+    <p id="message"></p>
+    <p id="message1">No. of Guesses: 0</p>
+    <p id="message2">Guessed numbers are: None</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
